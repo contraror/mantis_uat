@@ -1,0 +1,52 @@
+8
+
+dir
+56
+svn://lx73.st701.com/test/mantisbt_SIT/plugins/IRC/clients
+svn://lx73.st701.com/test
+
+
+
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4225bbaf-ca57-4e7d-9e07-d3eea7d23dcd
+
+FreenodeIRC.class.php
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+e5d87895af0bfc417f17f722bc90664f
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+MibbitIRC.class.php
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+7e299e0d08602499678f67f1330a49e4
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+

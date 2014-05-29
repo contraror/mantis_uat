@@ -1,0 +1,67 @@
+8
+
+dir
+56
+svn://lx73.st701.com/test/mantisbt_SIT/javascript/min/jscalendar
+svn://lx73.st701.com/test
+
+
+
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4225bbaf-ca57-4e7d-9e07-d3eea7d23dcd
+
+lang
+dir
+
+calendar-setup.js
+file
+
+
+
+
+2014-05-27T08:45:49.000000Z
+6c8b2fda6bc7b451899c73a4a5c898c4
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+calendar.js
+file
+
+
+
+
+2014-05-27T08:45:49.000000Z
+d64850e4f303b6acf96f122e21aea59c
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+calendar-blue.css
+file
+
+
+
+
+2014-05-27T08:45:49.000000Z
+4c50139975d4ceb05733c94facd25563
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+

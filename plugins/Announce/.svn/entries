@@ -1,0 +1,64 @@
+8
+
+dir
+56
+svn://lx73.st701.com/test/mantisbt_SIT/plugins/Announce
+svn://lx73.st701.com/test
+
+
+
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4225bbaf-ca57-4e7d-9e07-d3eea7d23dcd
+
+pages
+dir
+
+lang
+dir
+
+files
+dir
+
+LICENSE
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+968bd8878ebc3fa16a2eecca323ef517
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+api
+dir
+
+Announce.php
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+02c884dc49f181ebe4472d69a8fc5f65
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+

@@ -1,0 +1,88 @@
+<?php
+	define(PLUGIN_WORKLOAD_VAR_IDX_NONE, -1);
+	
+	define(PLUGIN_WORKLOAD_PRINT_ISSUE_TIME_DEFAULT, 0);
+	define(PLUGIN_WORKLOAD_PRINT_ISSUE_WORKLOAD_DEFAULT, -1);
+	
+	/**
+	 * Print the menu
+	 *
+	 * @param string $p_page specifies the current page name so it's link can be disabled
+	 * @return void
+	 * @author rcasteran
+	 */
+	function print_workload_menu( $p_page = '', $p_project_id, $p_version_id, $p_handler_id ) {
+		$t_main_page = 'main.php';
+		$t_changelog_page = 'changelog.php';
+	
+		switch( $p_page ) {
+			case $t_main_page:
+				$t_main_page = '';
+				$t_changelog_page = plugin_page($t_changelog_page, false);
+
+				if($p_handler_id != -1) {
+					$t_changelog_page = $t_changelog_page."&handler_id=".$p_handler_id;					
+				}else if($p_version_id != -1) {
+					$t_changelog_page = $t_changelog_page."&version_id=".$p_version_id;					
+				}else if($p_project_id != -1) {
+					$t_changelog_page = $t_changelog_page."&project_id=".$p_project_id;
+				} 
+				/* Else do nothing */				
+				break;
+			case $t_changelog_page:
+				$t_main_page = plugin_page($t_main_page, false);
+				$t_changelog_page = '';
+				
+				if($p_handler_id != -1) {
+					$t_main_page = $t_main_page."&handler_id=".$p_handler_id;					
+				}else if($p_version_id != -1) {
+					$t_main_page = $t_main_page."&version_id=".$p_version_id;					
+				}else if($p_project_id != -1) {
+					$t_main_page = $t_main_page."&project_id=".$p_project_id;
+				}
+				/* Else do nothing */				
+				break;
+			default:
+				$t_main_page = plugin_page($t_main_page, false);
+				$t_changelog_page = plugin_page($t_changelog_page, false);
+				break;
+		}
+	
+		echo '<div align="center"><p>';
+		print_bracket_link($t_main_page, lang_get('plugin_workload_menu_main') );
+		print_bracket_link($t_changelog_page, lang_get('plugin_workload_menu_changelog') );
+		echo '</p></div>';
+	} /* End of print_traceability_menu() */
+	
+	if(!function_exists('get_custom_fied_ids'))
+	{
+ 	/**
+	 * Get the custom field ids of a specified type (if any)
+	 *
+	 * @param array of custom field type
+	 * @return array of custom field ids
+	 * @author rcasteran
+	 */
+	function get_custom_fied_ids($p_types) {
+		$t_custom_field_table = db_get_table( 'mantis_custom_field_table' );
+		$query = "SELECT *
+				  FROM $t_custom_field_table
+				  ORDER BY name ASC";
+		$result = db_query_bound( $query );
+		$t_row_count = db_num_rows( $result );
+		$t_ids = array();
+
+		for( $i = 0;$i < $t_row_count;$i++ ) {
+			$row = db_fetch_array( $result );
+			foreach($p_types as $t_type) {
+				if($row['type'] == $t_type) {
+					array_push( $t_ids, $row['id'] );
+				}
+				/* Else do nothing */
+			}
+		}
+
+		return $t_ids;
+	} /* End of get_custom_fied_ids() */
+	}
+?>

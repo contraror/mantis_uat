@@ -1,0 +1,73 @@
+8
+
+dir
+56
+svn://lx73.st701.com/test/mantisbt_SIT/plugins/IRC
+svn://lx73.st701.com/test
+
+
+
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4225bbaf-ca57-4e7d-9e07-d3eea7d23dcd
+
+pages
+dir
+
+clients
+dir
+
+lang
+dir
+
+LICENSE
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+66e1eeb3afdf47b310a8c763864b70c8
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+IRC.php
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+1f5c31487f2676cba1df1680568f11cf
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+IRCClient.class.php
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+72015f106631b969c6ff3927f2a17b45
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+

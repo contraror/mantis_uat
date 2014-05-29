@@ -1,0 +1,52 @@
+8
+
+dir
+56
+svn://lx73.st701.com/test/mantisbt_SIT/library/ezc/Base/src/metadata
+svn://lx73.st701.com/test
+
+
+
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4225bbaf-ca57-4e7d-9e07-d3eea7d23dcd
+
+tarball.php
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+988bce2474a73cf18bad85a2fb9112cf
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+pear.php
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+71fc5b479b6d8aa27103a16a29a715ea
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+

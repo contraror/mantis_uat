@@ -1,0 +1,19 @@
+this will add feature search engine 
+Redmine
+-------
+- Install Redmine
+- Install Jenkins plugins 	(https://github.com/jbox-web/redmine_jenkins)
+maintenance.html
+- Change Redmine statuses
+1 	New
+10 	Fix In Progress
+31 	Pending Code Deploy SIT
+32 	Ready for Retest SIT
+41 	Pending Code Deploy UAT
+42 	Ready for Retest UAT
+51 	Pending Code Deploy PRD
+52 	Ready for Retest PRD
+81 	Resolved
+82 	Duplicate
+90 	Closed
+91 	Rejected

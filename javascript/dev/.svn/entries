@@ -1,0 +1,106 @@
+8
+
+dir
+56
+svn://lx73.st701.com/test/mantisbt_SIT/javascript/dev
+svn://lx73.st701.com/test
+
+
+
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4225bbaf-ca57-4e7d-9e07-d3eea7d23dcd
+
+projax
+dir
+
+common.js
+file
+
+
+
+
+2014-05-27T08:45:49.000000Z
+fd2bd904e0d559e10a66a85ae5c27caa
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+xmlhttprequest.js
+file
+
+
+
+
+2014-05-27T08:45:49.000000Z
+bbf3fbb8068df16f0901334953df3625
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+addLoadEvent.js
+file
+
+
+
+
+2014-05-27T08:45:49.000000Z
+d269c970093fb15cea9ce70f6b2153eb
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+jscalendar
+dir
+
+dynamic_filters.js
+file
+
+
+
+
+2014-05-27T08:45:49.000000Z
+ee4ee4e8902e612f5721845b27273683
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+time_tracking_stopwatch.js
+file
+
+
+
+
+2014-05-27T08:45:49.000000Z
+19af4f932c37186c750b644fdfc2e5d8
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+ajax.js
+file
+
+
+
+
+2014-05-27T08:45:49.000000Z
+cf93193fdb19340b2abec3339a41cb13
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+

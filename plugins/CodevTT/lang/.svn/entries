@@ -1,0 +1,52 @@
+8
+
+dir
+56
+svn://lx73.st701.com/test/mantisbt_SIT/plugins/CodevTT/lang
+svn://lx73.st701.com/test
+
+
+
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4225bbaf-ca57-4e7d-9e07-d3eea7d23dcd
+
+strings_english.txt
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+915dd8bb8d896091645a2b47b7ed78f0
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+strings_french.txt
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+8346520565bec7ebc254289453a250a6
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+

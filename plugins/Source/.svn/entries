@@ -1,0 +1,124 @@
+8
+
+dir
+56
+svn://lx73.st701.com/test/mantisbt_SIT/plugins/Source
+svn://lx73.st701.com/test
+
+
+
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4225bbaf-ca57-4e7d-9e07-d3eea7d23dcd
+
+pages
+dir
+
+lang
+dir
+
+files
+dir
+
+LICENSE
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+194aa53dafab8a8dca8edef764886fe0
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+Source.FilterAPI.php
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+33d0fc7c61fff1bd3b86f8d05dd39e56
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+MantisSourcePlugin.class.php
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+d57f767e5ea6d05a36d564f2836c8d21
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+Source.php
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+73baa1e641f4fda800d797c1f240b1a1
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+Source.ViewAPI.php
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+7dd3f08ad2103f369ebf4f08fbaec1ee
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+SourceIntegration.php
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+eb9a1781cb2c65ca7fcf42104bfc8573
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+classes
+dir
+
+Source.API.php
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+c20629e4e7c1cdd7937df8d9a39e9d68
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+

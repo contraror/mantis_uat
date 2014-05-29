@@ -1,0 +1,73 @@
+8
+
+dir
+56
+svn://lx73.st701.com/test/mantisbt_SIT/plugins/Scrum
+svn://lx73.st701.com/test
+
+
+
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4225bbaf-ca57-4e7d-9e07-d3eea7d23dcd
+
+pages
+dir
+
+Scrum.php
+file
+
+
+
+
+2014-05-27T08:45:47.000000Z
+365f4e0dcb38ee90314ca45067959e4e
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+lang
+dir
+
+files
+dir
+
+LICENSE
+file
+
+
+
+
+2014-05-27T08:45:47.000000Z
+0f7f2ff7e78dbf846b9c713271d1de84
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+.gitignore
+file
+
+
+
+
+2014-05-27T08:45:47.000000Z
+24825c2fb9196b8c669e4c61758598e2
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+

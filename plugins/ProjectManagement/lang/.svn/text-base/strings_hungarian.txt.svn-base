@@ -1,0 +1,144 @@
+<?php
+	$s_plugin_ProjectManagement_title = 'Projekt Menedzsment';
+	$s_plugin_ProjectManagement_configuration = 'Konfiguráció';
+   	$s_plugin_ProjectManagement_settings_updated = 'Beállítások frissítése megtörtént';
+
+	$s_plugin_ProjectManagement_work_type = 'Munka típusa';
+	$s_plugin_ProjectManagement_est = 'Terv';
+	$s_plugin_ProjectManagement_done = 'Kész';
+	$s_plugin_ProjectManagement_todo = 'Feladat';
+	$s_plugin_ProjectManagement_diff = 'Különbség';
+	$s_plugin_ProjectManagement_total = 'teljes';
+
+	$s_plugin_ProjectManagement_clear = 'Tisztít';
+	$s_plugin_ProjectManagement_book_date = 'Időpont';
+	$s_plugin_ProjectManagement_reports = 'Projekt menedzsment';
+	$s_plugin_ProjectManagement_time_division = 'Idő felosztása';
+	$s_plugin_ProjectManagement_per = 'Per';
+	$s_plugin_ProjectManagement_time_registration = 'Idő nyilvántartás';
+	$s_plugin_ProjectManagement_time_registration_worksheet = 'Idő nyilvántartási munkafelület';
+	$s_plugin_ProjectManagement_time_registration_overview = 'Idő nyilvántartás összefoglaló';
+	$s_plugin_ProjectManagement_project_progress = 'Projekt haladás';
+	$s_plugin_ProjectManagement_resource_progress = 'Erőforrás felhasználás';
+	$s_plugin_ProjectManagement_resource_management = 'Erőforrás menedzsment';
+	$s_plugin_ProjectManagement_period = 'Periódus';
+	$s_plugin_ProjectManagement_hours = 'Óra';
+	$s_plugin_ProjectManagement_cost = 'Díj';
+	$s_plugin_ProjectManagement_total_cost = 'Teljes díj';
+	$s_plugin_ProjectManagement_turn_on_recently_visited = 'Kapcsolja be a \'nemrég megtekintett\' konfigurációs beállítást az engedélyezéséhez.';
+	$s_plugin_ProjectManagement_recently_visited = 'Nemrég megtekintett';
+	$s_plugin_ProjectManagement_recently_registered = 'Nemrég bejegyzett';
+	$s_plugin_ProjectManagement_day = 'Ma';
+	$s_plugin_ProjectManagement_week = 'Ez a hét';
+	$s_plugin_ProjectManagement_last_week = 'Előző hét';
+	$s_plugin_ProjectManagement_last_months = 'Utolsó hónapok';
+	$s_plugin_ProjectManagement_month = 'Hónap';
+	$s_plugin_ProjectManagement_unassigned = 'Kiosztatlan';
+
+	$s_plugin_ProjectManagement_hourly_rate = 'Óradíj';
+	$s_plugin_ProjectManagement_hours_per_week = 'heti óraszám';
+	$s_plugin_ProjectManagement_color = 'Szín';
+	$s_plugin_ProjectManagement_deployability = 'Terhelhetőség';
+
+	$s_plugin_ProjectManagement_work_types = 'Munka típusa';
+	$s_plugin_ProjectManagement_work_types_info = 'Ezen felsorolás a hibajegyeken végrehajtható munkafajtákat tartalmazza. Használjon csupán egyet a funkció kikapcsolásához.';
+
+	$s_plugin_ProjectManagement_edit_estimates_threshold = 'Becsült idő módosítási küszöb';
+	$s_plugin_ProjectManagement_edit_estimates_threshold_info = 'Egy hibajegyre fordítandó becsült idő utólag már nem módosítható az itt megadott küszöb alatt.';
+
+	$s_plugin_ProjectManagement_include_bookdate_threshold = 'Időpont módosítási küszöb';
+	$s_plugin_ProjectManagement_include_bookdate_threshold_info = 'Legalább ez a biztonsági szint kell, hogy a munkaórák elszámolásakor módosítható legyen a feladat elvégzésének dátuma';
+
+	$s_plugin_ProjectManagement_work_type_thresholds = 'Munka elszámolási küszöb';
+	$s_plugin_ProjectManagement_work_type_thresholds_info = 'A megadottnál alacsonyabb jogosultságú felhasználók nem láthatják és módosíthatják a munkaelszámolás mezőit.<br><b>Szintaxis</b>: array ( val => ACCLEVEL[, val2 => ACCLEVEL2,...] )<br><b>Példa</b>: array ( 20 => REPORTER, 50 => DEVELOPER )';
+
+	$s_plugin_ProjectManagement_finish_upon_resolving = 'Munkatípusok melyek befejeződnek a feladat megoldásakor';
+	$s_plugin_ProjectManagement_finish_upon_resolving_info = 'Leírja  mely munkatípusok \'feladatai\' válnak automatikusan nullává mikor a hiba megoldott státuszt kap.<br><b>Példa</b>: array ( 20, 50 )';
+
+	$s_plugin_ProjectManagement_finish_upon_closing = 'Munkatípusok melyek befejeződnek a feladat lezárásakor';
+	$s_plugin_ProjectManagement_finish_upon_closing_info = 'Leírja  mely munkatípusok \'feladatai\' válnak automatikusan nullává mikor a hiba lezárt státuszt kap.<br><b>Példa</b>: array ( 20, 50 )';
+
+	$s_plugin_ProjectManagement_enable_time_registration_threshold = 'Munkaráfordítás engedélyezési küszöb';
+	$s_plugin_ProjectManagement_view_time_reg_summary_threshold = 'Teljes munkaráfordítás megtekintési küszöb';
+	$s_plugin_ProjectManagement_view_time_registration_worksheet_threshold = 'Munka ráfordítási űrlap megtekintési küszöb';
+	$s_plugin_ProjectManagement_view_report_registration_threshold = 'Munka ráfordítási jelentés megtekintési küszöb';
+	$s_plugin_ProjectManagement_view_resource_management_threshold = 'Erőforrás menedzsment megtekintési küszöb';
+	$s_plugin_ProjectManagement_view_project_progress_threshold = 'Erőforrás allokáció megtekintési küszöb';
+	$s_plugin_ProjectManagement_view_target_overview_threshold = 'Feladat áttekintő megtekintési küszöb';
+	$s_plugin_ProjectManagement_view_all_targets_threshold = 'Más felhasználók feladatainak láthatósága megtekintési küszöb';
+	$s_plugin_ProjectManagement_admin_threshold = 'Plugin adminisztrátor megtekintési küszöb';
+
+	$s_plugin_ProjectManagement_decimal_separator = 'Tizedes jegy';
+	$s_plugin_ProjectManagement_thousand_separator = 'Ezres szeparátor';
+
+	$s_plugin_ProjectManagement_include_bugs_with_deadline = 'Határidős hibákkal együtt';
+	$s_plugin_ProjectManagement_include_bugs_with_deadline_info = 'Az erőforrás allokációs oldalon megjeleníti a verzió kiadás dátumát megelőző határidejű hibákat is.';
+	$s_plugin_ProjectManagement_include_bugs_with_deadline_warning = '<b>Figyelem:</b> Ez az opció hátrányosan befolyásolja az oldal sebességét!';
+
+	$s_plugin_ProjectManagement_view_customer_payment_summary_threshold = 'Ügyfél számlázási adatok megtekintési küszöb';
+	$s_plugin_ProjectManagement_enable_customer_payment_threshold = '\'Ügyfélnek Számlázás\' módosítási köszüb';
+	$s_plugin_ProjectManagement_enable_customer_payment_threshold_info = 'Beállíthatja a hibajegyen, mely ügyfélnek kell számlázni érte.';
+	$s_plugin_ProjectManagement_enable_customer_approval_threshold = 'Ügyfél jóváhagyási küszöb';
+	$s_plugin_ProjectManagement_enable_customer_approval_threshold_info = 'Ügyfél oldali jóváhagyás a kért hibajavítás megkezdésére.';
+	$s_plugin_ProjectManagement_view_billing_threshold = 'Számlák megtekintésének küszöbe';
+
+	$s_plugin_ProjectManagement_customer_section = 'Ügyfél szakasz';
+	$s_plugin_ProjectManagement_paying_customers = 'Fizető ügyfelek';
+	$s_plugin_ProjectManagement_integration_custom_dev = 'Egyedi igények';
+	$s_plugin_ProjectManagement_integration_custom_dev_info = 'Az alaprendszer egyedi fejlesztésekkel bővítve.';
+	$s_plugin_ProjectManagement_approving_customers = 'Jóváhagyó ügyfelek';
+	$s_plugin_ProjectManagement_general_configuration = 'Plugin konfiguráció';
+	$s_plugin_ProjectManagement_customer_management = 'Ügyfél konfiguráció';
+	$s_plugin_ProjectManagement_add_new_customer = 'Új ügyfél';
+	$s_plugin_ProjectManagement_edit_customer = 'Ügyfél módosítása';
+	$s_plugin_ProjectManagement_customer_name = 'Ügyfél neve';
+	$s_plugin_ProjectManagement_customer_share = 'Részesedés';
+	$s_plugin_ProjectManagement_customer_can_approve = 'Jóváhagyhat fejlesztéseket';
+	$s_plugin_ProjectManagement_billing = 'Számlázás';
+
+	$s_plugin_ProjectManagement_targets = 'Feladatok';
+	$s_plugin_ProjectManagement_target_date = 'Határidő';
+	$s_plugin_ProjectManagement_overdue = 'Késik';
+	$s_plugin_ProjectManagement_owner = 'Tulaj';
+	$s_plugin_ProjectManagement_completed = 'Kész';
+	$s_plugin_ProjectManagement_new_target = 'Új feladat';
+	$s_plugin_ProjectManagement_target_overview = 'Feladat áttekintés';
+
+	$s_plugin_ProjectManagement_project_without_versions = 'Ezt az oldalt csak akkor látja, ha olyan projekt(ek)et választott melyekhez megjelenési dátum kapcsolódik.';
+	$s_plugin_ProjectManagement_all_versions_selected = 'Ezt az oldalt csak akkor látja, ha a \'Minden projekt\' helyett más projektet választ.';
+	$s_plugin_ProjectManagement_project_selection_disabled = 'Ezt az oldalt csak akkor látja, ha be van kapcsolva a \'show_project_menu_bar\'. Keresse az Adminisztrátort';
+
+	$s_plugin_ProjectManagement_unavailability = 'Nem elérhető';
+	$s_plugin_ProjectManagement_unavailability_add_new = 'Új nem elérhető periódus megadása';
+	$s_plugin_ProjectManagement_unavailability_overview = 'Nem elérhető periódusok áttekintése';
+	$s_plugin_ProjectManagement_unavailability_remove = 'Nem elérhető periódus törlése';
+	$s_plugin_ProjectManagement_unavailability_period = 'Periódus';
+	$s_plugin_ProjectManagement_unavailability_type = 'Típus';
+	$s_plugin_ProjectManagement_unavailability_note = 'Megjegyzés';
+
+	$s_plugin_ProjectManagement_unplanned = 'Tervezetlen';
+	$s_plugin_ProjectManagement_planned = 'Tervezett';
+	$s_plugin_ProjectManagement_unavailable = 'Nem elérhető';
+	$s_plugin_ProjectManagement_finished = 'Befejezett';
+	$s_plugin_ProjectManagement_select_target_version = 'Válasszon célverziót';
+	$s_plugin_ProjectManagement_select_from_version = 'Termékverzió';
+	$s_plugin_ProjectManagement_select_from_date = '<i>vagy</i> hivatkozási dátum';
+	$s_plugin_ProjectManagement_reference_date = 'Hivatkozási dátum';
+	$s_plugin_ProjectManagement_release_date = 'Megjelenési dátum';
+	$s_plugin_ProjectManagement_last_dev_day = 'Utolsó fejlesztési nap';
+	$s_plugin_ProjectManagement_group_by_projects = 'Projektenként és kategóriánként csoportosítva';
+	$s_plugin_ProjectManagement_group_by_projects_by_default = 'Alapértelmezetten projektenként és kategóriánként csoportosítva';
+	$s_plugin_ProjectManagement_show_projects_by_default = 'Alapértelmezetten közvetlenül mutassa a projekteket minden erőforráshoz';
+	$s_plugin_ProjectManagement_release_buffer = 'Kiadás előtt tartalék napok';
+
+	$s_plugin_ProjectManagement_error_enddate_before_startdate = 'A végdátumnak későbbinek kell lennie mint a kezdő dátumnak';
+
+	$s_plugin_ProjectManagement_work_hours_per_day = 'Napi munkaóra';
+	$s_plugin_ProjectManagement_monday = 'hétfő';
+	$s_plugin_ProjectManagement_tuesday = 'kedd';
+	$s_plugin_ProjectManagement_wednesday = 'szerda';
+	$s_plugin_ProjectManagement_thursday = 'csütörtök';
+	$s_plugin_ProjectManagement_friday = 'péntek';
+	$s_plugin_ProjectManagement_saturday = 'szombat';
+	$s_plugin_ProjectManagement_sunday = 'vasárnap';
+?>

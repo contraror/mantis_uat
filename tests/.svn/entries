@@ -1,0 +1,94 @@
+8
+
+dir
+56
+svn://lx73.st701.com/test/mantisbt_SIT/tests
+svn://lx73.st701.com/test
+
+
+
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4225bbaf-ca57-4e7d-9e07-d3eea7d23dcd
+
+AllTests.php
+file
+
+
+
+
+2014-05-27T08:45:47.000000Z
+5b8182097bc95b58141c8e1859e36727
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+soap
+dir
+
+bootstrap.php.sample
+file
+
+
+
+
+2014-05-27T08:45:47.000000Z
+3ae3e04f5eb5b535b786203f4312bc84
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+test_config_get_set.php
+file
+
+
+
+
+2014-05-27T08:45:47.000000Z
+59d48ab5f4f6eca295b7cbf51ae96954
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+test.php
+file
+
+
+
+
+2014-05-27T08:45:47.000000Z
+a7111f785ac78bb68929ee55688e9d11
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+Mantis
+dir
+
+TestConfig.php
+file
+
+
+
+
+2014-05-27T08:45:47.000000Z
+8d7b54477ed996dbdd4f43e31ca04621
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+

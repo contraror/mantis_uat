@@ -1,0 +1,58 @@
+8
+
+dir
+56
+svn://lx73.st701.com/test/mantisbt_SIT/plugins/InlineColumnConfiguration
+svn://lx73.st701.com/test
+
+
+
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4225bbaf-ca57-4e7d-9e07-d3eea7d23dcd
+
+lang
+dir
+
+files
+dir
+
+LICENSE
+file
+
+
+
+
+2014-05-27T08:45:47.000000Z
+393a5ca445f6965873eca0259a17f833
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+InlineColumnConfiguration.php
+file
+
+
+
+
+2014-05-27T08:45:47.000000Z
+a4cc9371abee8f4bd1eba377a738b942
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+

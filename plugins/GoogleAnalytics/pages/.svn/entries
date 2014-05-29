@@ -1,0 +1,52 @@
+8
+
+dir
+56
+svn://lx73.st701.com/test/mantisbt_SIT/plugins/GoogleAnalytics/pages
+svn://lx73.st701.com/test
+
+
+
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4225bbaf-ca57-4e7d-9e07-d3eea7d23dcd
+
+config.php
+file
+
+
+
+
+2014-05-27T08:45:47.000000Z
+176549da4d0aff99e229e5f0bc22079c
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+config_update.php
+file
+
+
+
+
+2014-05-27T08:45:47.000000Z
+2fcfc4699987ce43e2fc80fb65b89819
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+

@@ -1,0 +1,134 @@
+8
+
+dir
+56
+svn://lx73.st701.com/test/mantisbt_SIT/plugins/Highlight
+svn://lx73.st701.com/test
+
+
+
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4225bbaf-ca57-4e7d-9e07-d3eea7d23dcd
+
+pages
+dir
+
+lang
+dir
+
+files
+dir
+
+LICENSE
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+ec39d75cbc4de8171c2f6656a26816a3
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+test.html
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+1e3846efb545c64b1a6448cefe373579
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+readme.eng.txt
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+171710a60e3f0d7e59418d73f3b10e5b
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+readme.rus.txt
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+b64c25cad68dd723e53c9f7dc08dc69a
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+has-props
+
+AUTHORS.en.txt
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+a2fce682ebdaabb8d5aa2b2eb09ab8f6
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+AUTHORS.ru.txt
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+122db88378ba5a3d6936f418de2933d1
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+README.txt
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+3ff1eb253c963349d8801c752ec7a2a7
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
+Highlight.php
+file
+
+
+
+
+2014-05-27T08:45:48.000000Z
+2b2cf538f779dfb7e8a8062acf4e3e7f
+2014-05-06T07:24:29.480096Z
+9
+jenwei
+
